@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24348B"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="#E5007D"
+        android:drawableTop="@android:drawable/ic_menu_rotate"
+        android:text="Home"
+        android:textColor="@color/yazirengi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/sendMail"
+            android:layout_width="30dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#A1BFD8"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:text="Send e-Mail"
+            android:textColor="@color/yazirengi" />
+
+        <Button
+            android:id="@+id/shared"
+            android:layout_width="30dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#D4BDD8"
+            android:drawableTop="@android:drawable/ic_menu_set_as"
+            android:text="Shared"
+            android:textColor="@color/yazirengi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/sensor"
+            android:layout_width="30dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#A993D1"
+            android:drawableTop="@android:drawable/ic_menu_preferences"
+            android:text="Sensors"
+            android:textColor="@color/yazirengi" />
+
+        <Button
+            android:id="@+id/users"
+            android:layout_width="30dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#BBC7C8"
+            android:drawableTop="@android:drawable/ic_menu_sort_alphabetically"
+            android:text="User List"
+            android:textColor="@color/yazirengi" />
+    </LinearLayout>
+</LinearLayout>

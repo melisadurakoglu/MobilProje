@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MailActivity">
+
+    <EditText
+        android:id="@+id/edittextGonderilecek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Gönderilecek Mail Adresi"
+        android:inputType="textPersonName"
+        android:textColor="#24348b" />
+
+    <EditText
+        android:id="@+id/edittextKonu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Konu"
+        android:inputType="textPersonName"
+        android:textColor="#24348b" />
+
+    <EditText
+        android:id="@+id/edittextAciklama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Açıklama"
+        android:inputType="textPersonName"
+        android:textColor="#24348b" />
+
+    <Button
+        android:id="@+id/buttonAttach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e5007d"
+        android:text="Dosya Ekle"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonGonder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0B3C8"
+        android:text="Gönder"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
+
